@@ -1,0 +1,88 @@
+<!--name:sanjaya ghimire
+assignment 2-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width">
+  <title>Employee</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="employee.js"></script>
+</head>
+<body>
+<div class="grey-background">
+<div class="white-background" >
+  <form id="theform">
+  <field>
+      <tab><strong>Add an Employee</strong></tab>
+      <div>
+        <label for="firstname">First Name:</label>
+        <br>
+      </div>
+      <div>
+        <input name="firstname" id="firstname" type="text" required class="bold" placeholder="First Name"> 
+        <br>
+      </div>
+      <div>
+        <label for="lastname">Last Name:</label>
+        <br>
+      </div>
+      <div>
+        <input type="text" id="lastname" name="lastname" class="bold" placeholder="Last Name">
+        <br>
+      </div>
+      <div>
+        <label for="department">Department:</label>
+        <br>
+      </div>
+      <div>
+        <select id="department" name="department" form="theform">
+          <option value="IT">IT</option>
+          <option value="Human Resource">Human Resource</option>
+          <option value="Management">Management</option>
+          <option value="Accounting">Accounting</option>
+          <option value="Transportation">Transportation</option>
+          <option value="Developer">Developer</option>
+        </select>
+        <br>
+        <br>
+      </div>
+      <div>
+        <button type="button" id="button-submit" style="font-weight: bold;">Submit </button>
+      </div>
+    </field>
+  </form>
+  
+  <form class="output">
+    <div id="out-header">
+      <h1>Employee added</h1>
+    </div>
+    <div>
+      <label id="out-name">Name:</label>
+      <br>
+    </div>
+    <div>
+      <label id="out-department">Department:</label>
+      <br>
+    </div>
+    <div>
+      <label id="out-employeeid">Employee ID:</label>
+      <br>
+    </div>
+    <div>
+      <label id="out-hiredate">Hire Date:</label>
+      <br>
+    </div>
+    <div>
+      <label id="out-totalemployees">Total:</label>
+    </div>
+    <div>
+      <label id="out-browserinfo">browser info:</label>
+    </div>
+    
+  </form>
+  <script></script>
+  </div>
+  </div>
+</body>
+</html>
